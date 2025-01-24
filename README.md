@@ -19,6 +19,10 @@
       Developed with ❤️ by the Farhang-e-Mua'arifat Team. 
       Check out the project on <a href="https://github.com/your-username/Farhang-e-Mua-arifat">GitHub</a>.
     </p>
+
+      
+<p align="center">For Dictionary visit <a CoPilot.html">here</a></p>
+      
   </footer>
 </body>
 </html>
