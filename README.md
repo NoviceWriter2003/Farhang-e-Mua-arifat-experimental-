@@ -21,8 +21,7 @@
     </p>
 
       
-<p align="center">For Dictionary visit <a href= CoPilot.html">here</a></p>
-      
+<p align="center">For Dictionary visit <a href="https://novicewriter2003.github.io/Farhang-e-Mua-arifat/CoPilot.html">here</a></p>
   </footer>
 </body>
 </html>
