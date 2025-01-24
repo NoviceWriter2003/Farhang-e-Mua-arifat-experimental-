@@ -1,9 +1,7 @@
 # Farhang-e-Mua'arifat 
 
-</head>
+
 <body>
-  <header>
-    <h1>Farhang-e-Mua'arifat</h1>
     <p>Your Gateway to Understanding: An English-to-Urdu Dictionary</p>
   </header>
   <main>
