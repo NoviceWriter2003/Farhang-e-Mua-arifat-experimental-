@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary Entry</title>
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+        /* Additional styling to make the dictionary entry page cooler */
+        .entry-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .entry-container h2 {
+            font-size: 2em;
+            text-align: center;
+            color: #333;
+        }
+
+        .entry-container .word-info {
+            margin-bottom: 20px;
+        }
+
+        .entry-container .word-info h3 {
+            font-size: 1.5em;
+            color: #008cba;
+        }
+
+        .entry-container .word-info p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .entry-container .example-sentence {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 5px solid #008cba;
+        }
+
+        .entry-container .example-sentence p {
+            font-style: italic;
+        }
+
+        .entry-container .notes {
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dictionary Entry</h1>
+        <p>Learn new words in both English and Urdu</p>
+    </header>
+    <main>
+        <div class="entry-container">
+            <h2>Word: <span id="word-name">Example Word</span></h2>
+
+            <div class="word-info">
+                <h3>English:</h3>
+                <p id="english-definition">Definition of the word in English.</p>
+
+                <h3>Urdu:</h3>
+                <p id="urdu-definition">اردو میں لفظ کی تعریف</p>
+            </div>
+
+            <div class="word-info">
+                <h3>Part of Speech:</h3>
+                <p id="part-of-speech">Noun (or any other part of speech)</p>
+            </div>
+
+            <div class="example-sentence">
+                <h3>Example Sentence:</h3>
+                <p><strong>English:</strong> "This is an example sentence using the word." </p>
+                <p><strong>Urdu:</strong> "یہ ایک مثال جملہ ہے جس میں لفظ استعمال ہوا ہے۔"</p>
+            </div>
+
+            <div class="notes">
+                <h3>Additional Notes:</h3>
+                <p id="additional-notes">Any extra context or important information about the word.</p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="Entry.js"></script>
+</body>
+</html>
