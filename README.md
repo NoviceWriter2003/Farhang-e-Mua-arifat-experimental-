@@ -1,6 +1,5 @@
 # Farhang-e-Mua'arifat 
 
-
 <body>
     <p>Your Gateway to Understanding: An English-to-Urdu Dictionary</p>
 
@@ -21,6 +20,6 @@
     </p>
 
       
-<p align="center">For Dictionary visit <a href="CoPilot.html">here</a></p>
+<p align="center">For Dictionary visit <a href="https://novicewriter2003.github.io/Farhang-e-Mua-arifat-experimental-/CoPilot.html">here</a></p>
   </footer>
 </body>
