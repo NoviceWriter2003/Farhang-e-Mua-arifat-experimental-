@@ -1,10 +1,12 @@
 // Array of word objects with name and link properties
 const words = [
-    { name: "Word 1", link: "entries/word1.html" },
-    { name: "Word 2", link: "entries/word2.html" },
-    { name: "Word 3", link: "entries/word3.html" },
-    // Add more words as needed
+    { name: "Gupt-Zan", link: "Entries/Gupt-Zan.html" },
+    { name: "Natakiya", link: "Entries/Natakiya.html" },
+    { name: "Zareefa", link: "Entries/Zareefa.html" },
 ];
+
+// Sort the words array alphabetically by name
+words.sort((a, b) => a.name.localeCompare(b.name));
 
 // Function to generate word list
 function generateWordList() {
