@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary Entry - گپت زن</title>
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+        .entry-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .entry-container h2 {
+            font-size: 2em;
+            text-align: center;
+            color: #333;
+        }
+
+        .entry-container .word-info {
+            margin-bottom: 20px;
+        }
+
+        .entry-container .word-info h3 {
+            font-size: 1.5em;
+            color: #008cba;
+        }
+
+        .entry-container .word-info p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .entry-container .example-sentence {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 5px solid #008cba;
+        }
+
+        .entry-container .example-sentence p {
+            font-style: italic;
+        }
+
+        .entry-container .notes {
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+
+        .entry-container .etymology {
+            font-size: 1.1em;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f4f8fc;
+            border-left: 5px solid #333;
+        }
+
+        [dir="rtl"] {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dictionary Entry</h1>
+        <p>Learn new words in both Urdu and English</p>
+    </header>
+    <main>
+        <div class="entry-container">
+            <!-- Displaying the Urdu Word -->
+            <h2 dir="rtl">لفظ: <span id="word-name">گپت زن</span></h2>
+
+            <div class="word-info">
+                <!-- Section for the definition of the word -->
+                <h3>تعریف:</h3>
+                <ul id="definitions">
+                    <li>
+                        <!-- Definition in Urdu -->
+                        <p lang="ur"><strong>Urdu:</strong> ننجا</p>
+                        <!-- Part of Speech in Urdu -->
+                        <p lang="ur"><strong>Part of Speech:</strong> اسم</p>
+                    </li>
+                    <li>
+                        <p lang="ur"><strong>Urdu:</strong> چھپنے کا ماہر</p>
+                        <p lang="ur"><strong>Part of Speech:</strong> اسم</p>
+                    </li>
+                    <li>
+                        <p lang="ur"><strong>Urdu:</strong> جاسوس</p>
+                        <p lang="ur"><strong>Part of Speech:</strong> اسم</p>
+                    </li>
+                    <li>
+                        <!-- Translation in English -->
+                        <p lang="en"><strong>English:</strong> Ninja, spy</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="etymology">
+                <!-- Section for the etymology of the word -->
+                <h3>اشتقاقیات:</h3>
+                <p lang="ur" id="etymology-info">[ گپت + زن ]</p>
+            </div>
+
+            <div class="example-sentence">
+                <!-- Section for example sentences -->
+                <h3>مثال جملہ:</h3>
+                <p lang="ur"><strong>Urdu:</strong> گپت زن اپنے دشمنوں کے جذبات سے کھیلنے کے ماہر ہیں۔</p>
+                <p lang="en"><strong>English:</strong> The ninjas are experts at playing with the emotions of their enemies.</p>
+                <p lang="ur"><strong>Urdu:</strong> ہم دشمن ملک میں جاسوس ہیں۔</p>
+                <p lang="en"><strong>English:</strong> We are spies in an enemy's country.</p>
+            </div>
+
+            
+        </div>
+    </main>
+    
+    <script src="Entry.js"></script>
+</body>
+</html>
